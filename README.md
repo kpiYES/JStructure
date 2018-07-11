@@ -39,20 +39,16 @@ we should obtain the following result:
             "name":"Application.java"
         }
     ],
-    "subdirectories":[
+    "folders":[
         {
             "name":"parser",
-            "files":[
-            ],
-            "subdirectories":[
+            "folders":[
                 {
                     "name":"api",
                     "files":[
                         {
                             "name":"DirectoryParser.java"
                         }
-                    ],
-                    "subdirectories":[
                     ]
                 },
                 {
@@ -61,17 +57,13 @@ we should obtain the following result:
                         {
                             "name":"DirectoryParserImpl.java"
                         }
-                    ],
-                    "subdirectories":[
                     ]
                 }
             ]
         },
         {
             "name":"service",
-            "files":[
-            ],
-            "subdirectories":[
+            "folders":[
                 {
                     "name":"api",
                     "files":[
@@ -81,8 +73,6 @@ we should obtain the following result:
                         {
                             "name":"WriterService.java"
                         }
-                    ],
-                    "subdirectories":[
                     ]
                 },
                 {
@@ -94,8 +84,6 @@ we should obtain the following result:
                         {
                             "name":"WriterServiceImpl.java"
                         }
-                    ],
-                    "subdirectories":[
                     ]
                 }
             ]
